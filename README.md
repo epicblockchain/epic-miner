@@ -4,7 +4,7 @@ Please read EULA.md and PRIVACY.
 
 Download the miner image from the releases section on the sidebar to the right or from [here](https://github.com/epicblockchain/epic-miner/releases/tag/1.0.0).
 
-# Flashing an SD card
+# Flashing a microSD card with ePIC image
 
 1. Download [balenaEtcher](https://www.balena.io/etcher/) for your machine.
 2. Download compressed image (ePIC-SC200-vX.X.X-xxxxxxxxxx.zip)

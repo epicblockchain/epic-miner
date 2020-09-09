@@ -30,9 +30,11 @@ Download the miner image from the releases section on the sidebar to the right o
 2. Run the executable and make sure it detects your miner on your local network.
 
 ![image of dashboard](dashboard.png)
+
 3. Click on settings and set the wallet address to your own (address.workername). (Leave password as x)
 
 ![clicking on settings](click_settings.png)
+
 4. Click apply and use the default password of "welcome" or the password that you have set.
 
 ![apply](apply.png)
@@ -43,6 +45,7 @@ Download the miner image from the releases section on the sidebar to the right o
 2. Use the dropdown menu under operating mode to select the desired operating mode. If you are running on 110V use efficiency only.
 
 ![select operating mode](operatingmode.png)
+
 3. Click apply beside operating mode.
 4. Click apply and use the default password of "welcome" or the password that you have set.
 5. The miner will reboot now.
@@ -52,6 +55,7 @@ Download the miner image from the releases section on the sidebar to the right o
 2. Type the address of the mining pool in the Pool text field.
 
 ![update address](address.png)
+
 3. Click apply.
 4. Enter "welcome" or the password that you have set into the password field and click apply.
 
@@ -59,7 +63,9 @@ Download the miner image from the releases section on the sidebar to the right o
 
 1. Click on settings.
 2. Type the new password in the new password text field.
+
 ![new password](newpassword.png)
+
 3. Click apply.
 4. Type the old password.
 5. Your password will have changed to the password you entered into the new text field.

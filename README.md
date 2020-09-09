@@ -48,7 +48,7 @@ The default default password for the miner is "letmein".
 ![select operating mode](images/operatingmode.png)
 
 3. Click apply beside operating mode.
-4. Click apply and use the default password of "welcome" or the password that you have set.
+4. Click apply and enter your password, then click apply.
 5. The miner will reboot now.
 
 ## Updating the mining pool

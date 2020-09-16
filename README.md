@@ -5,7 +5,7 @@ Please read EULA.md and PRIVACY.
 # Installation guide
 
 Download the miner image from the releases section on the sidebar to the right or from [here](https://github.com/epicblockchain/epic-miner/releases/tag/1.0.0).
-The default default password for the miner is "letmein".
+The default password for the miner is "letmein".
 
 ## Flashing a microSD card with ePIC image
 
@@ -36,7 +36,7 @@ The default default password for the miner is "letmein".
 
 ![clicking on settings](images/click_settings.png)
 
-4. Click apply and enter the password, the click apply.
+4. Click apply and enter the default password of "letmein", the click apply.
 
 ![apply](images/apply.png)
 
@@ -48,7 +48,7 @@ The default default password for the miner is "letmein".
 ![select operating mode](images/operatingmode.png)
 
 3. Click apply beside operating mode.
-4. Click apply and enter your password, then click apply.
+4. Click apply and enter the default password of "letmein", then click apply.
 5. The miner will reboot now.
 
 ## Updating the mining pool
@@ -58,7 +58,7 @@ The default default password for the miner is "letmein".
 ![update address](images/address.png)
 
 3. Click apply.
-4. Enter password and click apply.
+4. Enter the default password of "letmein" and click apply.
 
 ## Updating the password
 
@@ -68,8 +68,8 @@ The default default password for the miner is "letmein".
 ![new password](images/newpassword.png)
 
 3. Click apply.
-4. Type the old password.
-5. Your password will have changed to the password you entered into the new text field.
+4. Type the old password (which may be the default password "letmein").
+5. Your password will have changed to the password you entered into the new text field. Use this instead of "letmein" from now on.
 
 # Updating individual miners
 

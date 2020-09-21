@@ -28,14 +28,15 @@ Please note that the SD card included with the miner does not come pre-flashed. 
 
 ![image of sd card contacts](images/sd_card_contacts.jpg)
 
-2. Push the SD card into the slot until it clicks. It should have the gold coloured contacts facing up when inserted.
+2. Push the SD card into the slot until it clicks. It should have the gold coloured contacts facing up when inserted. The SD card may fall into the miner if the angle of insertion is wrong. Wait for some resistance and then a click when pushing from the slot before releasing the chip.
+
+![image of almost inserted card](images/sd_card_almost_inserted.jpg)
 
 ![image of inserted card](images/sd_card_inserted.jpg)
 
 ## Operating the miner
 
-1. Insert the SD card into the SD card slot in the miner.
-2. Turn the miner on.
+1. Turn the miner on by plugging the power in.
 
 ## Updating the wallet address
 

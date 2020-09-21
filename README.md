@@ -9,6 +9,8 @@ The default default password for the miner is "letmein".
 
 ## Flashing a microSD card with ePIC image
 
+Please note that the SD card included with the miner does not come pre-flashed. You must flash an image onto it using the instructions below for the miner to operate properly.
+
 1. Download [balenaEtcher](https://www.balena.io/etcher/) for your machine.
 2. Download compressed image (ePIC-SC200-vX.X.X-xxxxxxxxxx.zip)
 3. Unzip image (ePIC-SC200-vX.X.X-xxxxxxxxxx.img)
@@ -19,6 +21,16 @@ The default default password for the miner is "letmein".
 7. Select target device
 8. Flash
 9. Safely remove the SD card from the machine
+
+## Inserting the SD card into the miner
+
+1. Find the SD card slot for the miner.
+
+![image of sd card contacts](images/sd_card_contacts.jpg)
+
+2. Push the SD card into the slot until it clicks. It should have the gold coloured contacts facing up when inserted.
+
+![image of inserted card](images/sd_card_inserted.jpg)
 
 ## Operating the miner
 

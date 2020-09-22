@@ -68,6 +68,12 @@ Plug in the power cable.
 
 Note: the miner will not appear on the network for up to 15 minutes. It may restart several times as it find the optimal configuration to mine at.
 
+# Using the dashboard software
+
+1. Download the dashboard software from [here](https://github.com/epicblockchain/epic-dashboard/releases/)
+
+Depending on network traffic you may need to submit data twice in order for changes to take effect. This will be resolved in a future update.
+
 ## Updating individual miners
 
 1. Click on settings.
@@ -130,7 +136,7 @@ Notice that the settings tab has a setting for a unique ID. If this value is set
 ![deselect](images/unselect.png)
 ![select](images/select.png)
 
-# Things to know
+# Things to note
 
 * The typical process for the miner startup is to run the fan at high speed with a green light.
 * The miner will flash the red and green LEDs back and forth very quickly while it calibrates.

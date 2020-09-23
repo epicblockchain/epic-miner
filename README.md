@@ -136,6 +136,10 @@ Notice that the settings tab has a setting for a unique ID. If this value is set
 ![deselect](images/unselect.png)
 ![select](images/select.png)
 
+## Reset Hardware Config
+
+This will recalibrate the miner again. This process can take up to 15 minute. The miner may restart several times.
+
 # Things to note
 
 * The typical process for the miner startup is to run the fan at high speed with a green light.

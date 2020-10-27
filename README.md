@@ -140,6 +140,15 @@ Notice that the settings tab has a setting for a unique ID. If this value is set
 
 This will recalibrate the miner again. This process can take up to 15 minute. The miner may restart several times.
 
+## Updating miner software
+![update firmware](images/updatefirmware.png)
+Use this to update the sd card image on the miner from dashboard. Download the most recent version from [here](https://github.com/epicblockchain/epic-miner/releases/). Extract the .zip file. You should have two files now: one that ends in .swu and one that ends in .img . We are interested in the one that ends in .swu.
+Click on the browse button. Navigate and select the .swu file.
+You should see that path to the file in the settings screen.
+![path to file](images/pathtofile.png)
+Activate the keep settings slider to maintain your wallet address, mining pool, and appended unique id after the software update.
+![activate slider](images/activateslider.png)
+
 # Things to note
 
 * The typical process for the miner startup is to run the fan at high speed with a green light.

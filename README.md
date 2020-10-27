@@ -71,87 +71,105 @@ Note: the miner will not appear on the network for up to 15 minutes. It may rest
 # Using the dashboard software
 
 1. Download the dashboard software from [here](https://github.com/epicblockchain/epic-dashboard/releases/)
+2. Use the sidebar on the left to navigate to tabs.
 
-Depending on network traffic you may need to submit data twice in order for changes to take effect. This will be resolved in a future update.
+## Instructions for VPN users
 
-## Updating individual miners
+Note that the software uses MDNS to discover miners on your network. This functionality does not work over a VPN. You will need to navigate to the Miner List tab and manually add miners.
 
-1. Click on settings.
-2. Notice that on the left side of the settings is a table with all the miners on your local network.
-3. Unchecking or checking the boxes to the right of their ip addresses will remove or add them (respectively) to the set of miners the settings will be applied to.
+## Miner Settings
 
-## Updating the wallet address
+To modify the settings for the miner use the sidebar to select the Miner Settings tab. If the sidebar is not open it can be opened using the button in the top left of the screen.
 
-1. Download the [epic-dashboard](https://github.com/epicblockchain/epic-dashboard) for your OS from the releases section, or build it from source.
-2. Run the executable and make sure it detects your miner on your local network.
+![expand sidebar](images/expand_sidebar.png)
 
-![image of dashboard](images/dashboard.png)
+![click settings](images/click_settings.png)
 
-3. Click on settings and set the wallet address to your own (address.workername). (Leave password as x)
+You must select which miners to apply the settings to by clicking the switches in the table on the settings page.
 
-![clicking on settings](images/click_settings.png)
+![not selected miner](images/not_selected_miner.png)
 
-4. Click apply and enter the default password of "letmein", the click apply.
+![selected miner](images/selected_miner.png)
 
-![apply](images/apply.png)
+By default all of the miners have a password of **letmein**.
 
-## Updating the operating mode
+After clicking apply you will recieve feedback letting you know if the request succeeded or failed. If in a rare case you recieve no feedback, assume the update to the miner settings has failed, or use the Miner List tab to verify your settings.
 
-1. Click on settings.
-2. Use the dropdown menu under operating mode to select the desired operating mode. If you are running on 110V use efficiency only. The default operating mode is efficiency mode.
+### Updating mining pool
 
-Note: The miner will reboot after this step. It will also recalibrate to fnd the optimal configuration to mine at for up to 15 min.
+Click on the "Mining Pool" tab on the settings page to view the mining pool settings. Fill out the fields and click apply. If the apply button is disabled, you must remember to select some miners to apply the settings to and fill out all form fields.
 
-![select operating mode](images/operatingmode.png)
+![mining pool](images/mining_pool.png)
 
-3. Click apply beside operating mode.
-4. Click apply and enter the default password of "letmein", then click apply.
-5. The miner will reboot now.
+### Updating wallet address
 
-## Updating the mining pool
-1. Click on settings.
-2. Type the address of the mining pool in the Pool text field.
+Click on the "Wallet Address" tab on the settings page. Fill out the fields and click apply.
 
-![update address](images/address.png)
+![wallet address](images/wallet_address.png)
 
-3. Click apply.
-4. Enter the default password of "letmein" and click apply.
+### Updating operating mode
 
-## Updating the password
+Click on the "Operating Mode" tab on the settings page. Fill out the fields and click apply. Your miner may take up to 15 minutes to recalibrate with the new operating mode.
 
-1. Click on settings.
-2. Type the new password in the new password text field.
+![operating mode](images/operating_mode.png)
 
-![new password](images/newpassword.png)
+### Updating appending unique id to miner name
 
-3. Click apply.
-4. Type the old password (which may be the default password "letmein").
-5. Your password will have changed to the password you entered into the new text field. Use this instead of "letmein" from now on.
+Click on the "Unique ID" tab on the settings page. Fill out the fields and click apply.
 
-## Unique ID
+![unique id](images/unique_id.png)
 
-Notice that the settings tab has a setting for a unique ID. If this value is set for a miner, the miner will have a unique ID added to its worker name which will be visible on the mining pool. By default this value is set.
+### Updating password
+
+Click on the "Password" tab on the settings page. Fill out the fields and click apply.
+
+![password](images/password.png)
+
+### Updating firmware
+
+Use your preferred internet browser to go to https://github.com/epicblockchain/epic-miner/releases and download the latest release of the firmware. Extract the zip file and note its location. Click on the "Firmware" tab on the settings page. Click browse and select the location of the extracted zip folder. Select the file ending in .swu within that folder. The "Maintain config over update" will save your settings across the update. Fill out the rest of the fields and click apply. You miner will take up to 15 minutes to reboot and recalibrate.
+![updating firmware](images/updating_firmware.png)
+
+### Rebooting your miner
+
+Click on the "Reboot" tab on the settings page. Fill out the fields and click apply. Your miner may take a few minutes to reboot.
+
+![reboot](images/reboot.png)
+
+### Recalibrating your miner
+
+Click on the "Recalibrate" tab on the settings page. Fill out the fields and click apply. Your miner may take up to 15 minutes to reboot and recalibrate.
+
+![recalibrate](images/recalibrate.png)
+
+## Adding miners
+
+If you are connecting over VPN or MDNS discovery is not functional for some reason, you may need to manually add miner IP addresses.
+
+### Manually adding miners
+
+To manually add miners navigate to the Miner List tab in the sidebar.
+
+![miner list](images/miner_list.png)
+
+Type the miner ip in the field and click on "Add Miner via IP". This will add the miner to your list and save all the miners to a file.
+After you have added all your miners you can choose to click "Save current miners" to store all the currently visible miners to a file so that your don't need to manually add them again.
+In the future, you can load the saved miners by clicking on "Load previously added miners".
+
+![manually adding miner list](images/manual_add.png)
+
+### Adding miners using a text file
+
+You can edit the same file the software writes to above by modifying or creating ipaddr.txt at the following locations. The expected format is:
+```
+1.2.3.4:4028
+10.10.10.10:4028
+```
+
+On windows: AppData/ePIC-Dashboard/ipaddr.txt
+
+On mac: YourHomeFolder/Library/Application Support/ePIC-Dashboard/ipaddr.txt
+
+On linux: ~/.ePIC-Dashboard/ipaddr.txt  (note the period at the front of .ePIC-Dashboard)
 
 
-![deselect](images/unselect.png)
-![select](images/select.png)
-
-## Reset Hardware Config
-
-This will recalibrate the miner again. This process can take up to 15 minute. The miner may restart several times.
-
-## Updating miner software
-![update firmware](images/updatefirmware.png)
-Use this to update the sd card image on the miner from dashboard. Download the most recent version from [here](https://github.com/epicblockchain/epic-miner/releases/). Extract the .zip file. You should have two files now: one that ends in .swu and one that ends in .img . We are interested in the one that ends in .swu.
-Click on the browse button. Navigate and select the .swu file.
-You should see that path to the file in the settings screen.
-![path to file](images/pathtofile.png)
-Activate the keep settings slider to maintain your wallet address, mining pool, and appended unique id after the software update.
-![activate slider](images/activateslider.png)
-
-# Things to note
-
-* The typical process for the miner startup is to run the fan at high speed with a green light.
-* The miner will flash the red and green LEDs back and forth very quickly while it calibrates.
-* The miner may reboot several times on startup. This process can take up to 10 minutes.
-* You will know the miner is hashing when it occasionally blinks green. Every green blink is a correct hash solution.

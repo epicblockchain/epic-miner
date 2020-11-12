@@ -172,4 +172,8 @@ On mac: YourHomeFolder/Library/Application Support/ePIC-Dashboard/ipaddr.txt
 
 On linux: ~/.ePIC-Dashboard/ipaddr.txt  (note the period at the front of .ePIC-Dashboard)
 
-
+## SSH to the miner
+```
+ssh root@yourminerip
+```
+When prompted for a password enter the miner password, by default "letmein"

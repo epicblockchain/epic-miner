@@ -1,12 +1,12 @@
-# ePIC-Miner
+# ePIC Blockchain SC200 Miner
 
 Please read EULA.md and PRIVACY.
 
 # Required materials
 
-## Included with ePIC miner
+## Included with ePIC SC200 miner
 
-* ePIC miner
+* ePIC SC200 miner
 * SD card
 
 ## Not included with ePIC miner
@@ -21,9 +21,9 @@ Please read EULA.md and PRIVACY.
 Download the miner image from the releases section on the sidebar to the right or from [here](https://github.com/epicblockchain/epic-miner/releases/).
 The default password for the miner is "letmein". Please allow this miner to run on public and private networks if asked so that the software can identify miners on your network.
 
-## Flashing a microSD card with ePIC image
+## Flashing a microSD card with ePIC image (SD Card comes preflashed now)
 
-Please note that the SD card included with the miner does not come pre-flashed. You must flash an image onto it using the instructions below for the miner to operate properly.
+Should you need to flash the SD card with an image, follow the instructions below for the miner to operate properly.
 
 1. Download [balenaEtcher](https://www.balena.io/etcher/) for your machine.
 2. Download compressed image (ePIC-SC200-vX.X.X-xxxxxxxxxx.zip)
@@ -50,28 +50,35 @@ Please note that the SD card included with the miner does not come pre-flashed. 
 
 ## Connecting Cables
 
-The power cable must be plugged in last.
+Note: The power cable must be plugged in last.
 
-### Fan cables
+### Fan Cables
 
 Plug in the fan cables. Face the front of the miner which has the ethernet port. The closest fan must connect to the left (when facing the miner) fan power port. The fan at the back of the miner must connect to the right (when facing the miner) fan power port.
 
 ![image of fan cables](images/fan_cables.jpg)
 
-### Ethernet cable
+### Ethernet Cable
 
 Plug in the ethernet cable from your network to the fan.
 
-### Power cable
+### PSU Cables
 
-Plug in the power cable.
+Plug in the 6 pin PSU cables until they click into place.
+
+![image_of_psu_cables_plugged_in](images/psu_cables.png)
+
+### Power Cable
+
+Plug in the power cable. Ensure that the fans are spinning after you plug the power in. If they are not, you may have not plugged the fans in completely.
 
 Note: the miner will not appear on the network for up to 15 minutes. It may restart several times as it find the optimal configuration to mine at.
 
 # Using the dashboard software
 
-1. Download the dashboard software from [here](https://github.com/epicblockchain/epic-dashboard/releases/)
-2. Use the sidebar on the left to navigate to tabs.
+1. Download the dashboard software from [here](https://github.com/epicblockchain/epic-dashboard/releases/). Ensure that the dashboard file you download is the appropriate one for your operating system.
+2. Unzip the downloaded file and double click it to run the program.
+3. Use the sidebar on the left to navigate to tabs.
 
 ## Instructions for VPN users
 

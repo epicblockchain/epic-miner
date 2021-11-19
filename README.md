@@ -25,15 +25,15 @@ The default password for the miner is "letmein". Please allow this miner to run 
 
 Should you need to flash the SD card with an image, follow the instructions below for the miner to operate properly.
 
-1. Download [balenaEtcher](https://www.balena.io/etcher/) for your machine.
-2. Download compressed image (ePIC-SC200-vX.X.X-xxxxxxxxxx.zip)
-3. Unzip the compressed image from the previous step. (ePIC-SC200-vX.X.X-xxxxxxxxxx.img)
+1. Download [balenaEtcher](https://www.balena.io/etcher/) for your machine
+2. Download the [compressed image](https://github.com/epicblockchain/epic-miner/releases) of the latest firmware (ePIC-SC200-vX.X.X-xxxxxxxxxx.zip)
+3. Unzip the compressed image from the previous step (ePIC-SC200-vX.X.X-xxxxxxxxxx.img)
 4. Plug in microSD card into PC
-5. Open the Etcher application (balenaEtcher).
+5. Open the Etcher application (balenaEtcher)
 ![image of etcher application](images/balena.png)
 6. Select Flash from file and choose the image file
 7. Select target device
-8. Click "Flash!" and wait for the process to finish.
+8. Click "Flash!" and wait for the process to finish
 9. Safely remove the SD card from the machine
 
 ## Inserting the SD card into the miner
